@@ -170,6 +170,7 @@ int main() {
 		//cout << "Test B was successful!" << endl;
 	}
 	deck_full.d_display(fp);
+	fclose(fp);
 
 	return 0;
 }
